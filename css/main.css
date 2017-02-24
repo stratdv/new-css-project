@@ -1,8 +1,8 @@
-h1{color:blue;
+h1{color:grey;
 font-size:36;
 font-weight:bold;
 }
-ol {color:blue;
+ol {color:grey;
 }
 h2{color:grey;
 font-size:36;
@@ -12,8 +12,13 @@ body {
   color: #414141;               /* Dark gray */
   background-color: #EEEEEE;    /* Light gray */
 }
+body {
+  font-family: 'Helvetica', serif;
+  font-size: 1em; /* equivalent to 16px */
+  line-height: 1.25; /* equivalent to 20px */
+}
 .stitched {
-   padding: 20px;
+   padding: 36px;
    margin: 10px;
    background: #ff0030;
    color: #fff;
